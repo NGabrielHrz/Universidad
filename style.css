@@ -39,7 +39,6 @@ body.dark {
 .sidebar {
   position: fixed;
   top: 0;
-  top: 0;
   left: 0;
   height: 100%;
   width: 250px;
@@ -48,7 +47,7 @@ body.dark {
   transition: var(--tran-05);
   z-index: 100;
 }
-.sidebar .close {
+.sidebar.close {
   width: 88px;
 }
 .sidebar li {
@@ -81,7 +80,7 @@ body.dark {
   white-space: nowrap;
   opacity: 1;
 }
-.sidebar .close .text {
+.sidebar.close .text {
   opacity: 0;
 }
 .sidebar header {
@@ -260,9 +259,9 @@ body.dark .switch::before {
   color: var(--text-color);
 }
 .sidebar.close ~ .home {
-  left: 78px;
+  left: 90px;
   height: 100vh;
-  width: calc(100% - 78px);
+  width: calc(100% - 90px);
 }
 body.dark .home .text {
   color: var(--text-color);

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +10,12 @@
   <title>University</title>
 </head>
 <body>
-  <script src="script.js"></script>
   <?php
   include "menu.php";
   ?>
   <section class="home">
     <div class="text">Barra lateral del tablero</div>
   </section>
+  <script src="script.js"></script>
 </body>
 </html>
