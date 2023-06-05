@@ -2,7 +2,7 @@
   <header>
     <div class="image-text">
       <span class="image">
-        <img src="img/logo_tec.png" alt="">
+        <img src="../img/logo_tec.png" alt="">
       </span>
       <div class="text logo-text">
         <span class="name"></span>
@@ -19,15 +19,15 @@
       </li>
       <ul class="menu-links">
         <li class="nav-links">
-          <a href="#">
+          <a href="dashboard.php">
             <i class="bi bi-house icon"></i>
             <span class="text nav-text">Panel</span>
           </a>
         </li>
         <li class="nav-links">
           <a href="#">
-            <i class="bi bi-bar-chart icon"></i>
-            <span class="text nav-text">Ganancia</span>
+            <i class="bi bi-book icon"></i>
+            <span class="text nav-text">Asignaciones</span>
           </a>
         </li>
         <li class="nav-links">
@@ -44,21 +44,15 @@
         </li>
         <li class="nav-links">
           <a href="#">
-            <i class="bi bi-heart icon"></i>
-            <span class="text nav-text">Clientes</span>
-          </a>
-        </li>
-        <li class="nav-links">
-          <a href="#">
-            <i class="bi bi-wallet icon"></i>
-            <span class="text nav-text">Ganancia</span>
+            <i class="bi bi-mortarboard icon"></i>
+            <span class="text nav-text">Alumnos</span>
           </a>
         </li>
       </ul>
     </div>
     <div class="bottom-content">
       <li class="">
-        <a href="#">
+        <a href="logout.php">
           <i class="bi bi-box-arrow-left icon"></i>
           <span class="text nav-text">Log out</span>
         </a>

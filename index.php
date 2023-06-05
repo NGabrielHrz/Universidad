@@ -10,12 +10,30 @@
   <title>University</title>
 </head>
 <body>
-  <?php
-  include "menu.php";
-  ?>
-  <section class="home">
-    <div class="text">Barra lateral del tablero</div>
-  </section>
+<nav class="sidebar close">
+    <div class="menu-bar">
+      <div class="bottom-content">
+        <li class="mode">
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </div>
+    </div>
+  </nav>
   <script src="script.js"></script>
+  <div class="index">
+    <form action="login.php" method="post">
+      <div class="loging">
+        <img src="img/logo_tec.png" class="imagen">
+        <input type="email" name="user" id="user" placeholder="Usuario">
+        <input type="password" name="pass" id="pass" placeholder="Contraseña">
+        <button type="submit">
+          <i class="bi bi-box-arrow-in-right icon"></i>
+          <span class="text nav-text">Log in</span>
+        </button>
+      </div>
+    </form>
+  </div>
 </body>
 </html>

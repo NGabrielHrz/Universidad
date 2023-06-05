@@ -11,6 +11,7 @@
   --primary-color-light: #f0f0f1;
   --toggle-color: #b4adad;
   --text-color: #444343;
+  --text-color2: white;
 
   --tran-03: all 0.2s ease;
   --tran-03: all 0.3s ease;
@@ -24,10 +25,6 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
-::selection {
-  background-color: var(--primary-color);
-  color: #fff;
-}
 body.dark {
   --body-color: #18191a;
   --sidebar-color: #242526;
@@ -35,6 +32,10 @@ body.dark {
   --primary-color-light: #3a3b3c;
   --toggle-color: #fff;
   --text-color: #ccc;
+}
+::selection {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 .sidebar {
   position: fixed;
@@ -265,4 +266,65 @@ body.dark .switch::before {
 }
 body.dark .home .text {
   color: var(--text-color);
+}
+.loging {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.loging div {
+  width: 250px;
+  height: 250px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loging input,
+.loging button {
+  margin-bottom: 10px;
+}
+.loging button {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.loging .text {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loging {
+  width: 250px;
+  height: 250px;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: white;
+}
+.loging button {
+  padding: 5px 25px;
+  background-color: #760605; /* establecer como varibles al principio */
+  color: var(--text-color2);
+  border-radius: 13px;
+}
+.loging button .text {
+  color: var(--text-color2);
+}
+.loging button:hover {
+  cursor: pointer;
+  background-color: #002e6d; /* establecer como varibles al principio */
+  transition: var(--tran-05);
+}
+.imagen {
+  width: 90px;
+  margin-bottom: 9px;
 }
