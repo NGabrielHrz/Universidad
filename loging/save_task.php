@@ -12,7 +12,7 @@
   if (mysqli_query($conexion, $sql)) {
     echo
     '<script>
-      alert("La tarea se guardo correctamente");
+      alert("La tarea se guardo correctamente. Puedes encontras tus tareas en el panel principal");
       location.href = "to-do.php";
     </script>'
     ;

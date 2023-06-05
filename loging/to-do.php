@@ -32,31 +32,6 @@ require "../connection.php";
         <input type="text" name="descripcion" id="task-input" placeholder="Descripción de la tarea">
         <button id="add-task-btn" type="submit">Agregar tarea</button>
       </div>
-      <div class="task-list">
-        <table class="table-task-list">
-          <tr class="tr-task-list">
-            <th align="center">ID de la tarea</th>
-            <th align="center">Materia</th>
-            <th align="center">Descripción</th>
-            <th align="center">Eliminar</th>
-          </tr>
-          <?php
-          $todos_usuarios = "SELECT * FROM tareas ORDER BY id ASC";
-          $result = $conexion->query($todos_usuarios);
-          while ($row = $result->fetch_assoc()) {
-            echo "<tr>";
-            echo "<td align='center'>" . $row["id"] . "</td>";
-            echo "<td align='center'>" . $row["materia"] . "</td>";
-            echo "<td align='center'>" . $row["descripcion"] . "</td>";
-            echo "<td align='center'><a href='borrar.php?id=" . $row["id"] . "'>Eliminar</a></td>";
-            echo "</tr>";
-          ?>
-          <?php
-          }
-          mysqli_free_result($result);
-          ?>
-        </table>
-      </div>
     </form>
   </section>
   <script src="script.js"></script>
