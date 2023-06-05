@@ -13,15 +13,16 @@
 <nav class="sidebar close">
     <div class="menu-bar">
       <div class="bottom-content">
-        <li class="mode">
-          <div class="toggle-switch">
-            <span class="switch"></span>
-          </div>
-        </li>
+        <ul>
+          <li class="mode">
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-  <script src="script.js"></script>
   <div class="index">
     <form action="login.php" method="post">
       <div class="loging">
@@ -35,5 +36,6 @@
       </div>
     </form>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

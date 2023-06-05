@@ -16,6 +16,6 @@
   <section class="home">
     <div class="text">Barra lateral del tablero</div>
   </section>
-  <script src="../script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
