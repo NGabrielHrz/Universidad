@@ -24,15 +24,16 @@ require "../connection.php";
     <div class="email-board">
       <form method="post" action="enviar_correo.php">
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" required><br>
+        <input type="text" name="nombre" id="nombre" required class="form-input" placeholder="Su nombre"><br>
 
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required><br>
-
+        <input type="email" name="email" id="email" required class="form-input" placeholder="Destinatario"><br>
+        <label for="email">Asunto:</label>
+        <input type="email" name="asunto" id="asunto" required class="form-input" placeholder="Asunto"><br>
         <label for="mensaje">Mensaje:</label><br>
-        <textarea name="mensaje" id="mensaje" rows="5" required></textarea><br>
+        <textarea name="mensaje" id="mensaje" rows="5" required class="form-textArea"></textarea><br>
 
-        <input type="submit" value="Enviar correo">
+        <input type="submit" value="Enviar correo" id="send-email">
       </form>
     </div>
   </section>
