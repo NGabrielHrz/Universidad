@@ -36,18 +36,6 @@
             <span class="text nav-text">Email</span>
           </a>
         </li>
-        <li class="nav-links">
-          <a href="#">
-            <i class="bi bi-map icon"></i>
-            <span class="text nav-text">Analizis</span>
-          </a>
-        </li>
-        <li class="nav-links">
-          <a href="#">
-            <i class="bi bi-mortarboard icon"></i>
-            <span class="text nav-text">Alumnos</span>
-          </a>
-        </li>
       </ul>
     </div>
     <div class="bottom-content">

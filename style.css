@@ -7,11 +7,12 @@
 :root {
   --body-color: #eff0f1;
   --sidebar-color: #FFF;
-  --primary-color: #232424;
+  --sidebar-color2: #d09700;
+  --primary-color: #760605;
   --primary-color-light: #f0f0f1;
   --toggle-color: #b4adad;
   --text-color: #444343;
-  --text-color2: white;
+  --text-color2: #ffffff;
 
   --tran-03: all 0.2s ease;
   --tran-03: all 0.3s ease;
@@ -28,10 +29,11 @@ body {
 body.dark {
   --body-color: #18191a;
   --sidebar-color: #242526;
-  --primary-color: #3a3b3c;
+  --primary-color: #002e6d;
   --primary-color-light: #3a3b3c;
   --toggle-color: #fff;
   --text-color: #ccc;
+  --text-color2: #d09700;
 }
 ::selection {
   background-color: var(--primary-color);
@@ -174,10 +176,10 @@ body.dark .sidebar header .toggle {
   background-color: var(--primary-color);
 }
 .sidebar li a:hover .icon, .sidebar li a:hover .text {
-  color: var(--sidebar-color);
+  color: var(--sidebar-color2);
 }
 body.dark .sidebar li a:hover .icon , body.dark .sidebar li a:hover .text {
-  color: var(--text-color);
+  color: var(--text-color2);
 }
 .sidebar .menu-bar {
   height: calc(100% - 55px);
@@ -422,4 +424,66 @@ li {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px #0000001a;
+}
+.email-board .form-input {
+  width: 250px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+.email-board .form-input:nth-child(5) {
+  margin-left: 17px;
+}
+.email-board .form-input:nth-child(8) {
+  margin-left: 7px;
+}
+.email-board .form-input:hover {
+  background-color: var(--primary-color-light);
+}
+.email-board .form-textArea {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  width: 561px;
+  height: 132px;
+  padding: 10px;
+}
+#send-email {
+  padding: 10px 20px;
+  background-color: #760605;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: var(--tran-05);
+}
+#send-email:hover {
+  background-color: #002e6d;
+}
+.map-location {
+  margin: 20px auto;
+  width: 750px;
+  background-color:#ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #0000001a;
+  text-align: center;
+}
+.map-location .map {
+  border-radius: 5px;
+  border: 1px solid var(--primary-color-light);
+  box-shadow: 0 2px 4px #0000001a;
+}
+.video-tecnm {
+  margin: 20px auto;
+  width: 850px;
+  background-color:#ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #0000001a;
+  text-align: center;
+}
+.video-tecnm .video {
+  border-radius: 5px;
 }
