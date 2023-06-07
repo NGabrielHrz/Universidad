@@ -21,7 +21,7 @@
         <li class="nav-links">
           <a href="dashboard.php">
             <i class="bi bi-house icon"></i>
-            <span class="text nav-text">Panel</span>
+            <span class="text nav-text">Dashboard</span>
           </a>
         </li>
         <li class="nav-links">
@@ -31,14 +31,14 @@
           </a>
         </li>
         <li class="nav-links">
-          <a href="#">
-            <i class="bi bi-bell icon"></i>
-            <span class="text nav-text">Notificaciones</span>
+          <a href="email.php">
+            <i class="bi bi-envelope-open icon"></i>
+            <span class="text nav-text">Email</span>
           </a>
         </li>
         <li class="nav-links">
           <a href="#">
-            <i class="bi bi-pie-chart icon"></i>
+            <i class="bi bi-map icon"></i>
             <span class="text nav-text">Analizis</span>
           </a>
         </li>
