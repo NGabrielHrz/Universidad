@@ -476,15 +476,12 @@ li {
 }
 #send-email {
   padding: 10px 20px;
-  background-color: #760605;
+  background-color: var(--primary-color);
   color: #ffffff;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   transition: var(--tran-05);
-}
-#send-email:hover {
-  background-color: #002e6d;
 }
 .map-location {
   margin: 20px auto;
