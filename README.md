@@ -8,7 +8,7 @@ Este repositorio fue creado para llevar un control de historial de codigo y como
 
 ## Estructura del repositorio
 
-- `/Universidad`: Carpeta principal que contiene los archivos realizados durante el transcurso de la elavoración del proyceto "Universidad", en esta caperta se encuentrar los archivos y carpetas principales como `/index.php`, `/LICENSE`, `/style.css`, `/loging` (error de dedo), `/img`.
+- `/Universidad`: Carpeta principal que contiene los archivos realizados durante el transcurso de la elavoración del proyceto "Universidad", en esta caperta se encuentrar los archivos y carpetas principales como `index.php`, `LICENSE`, `style.css`, `/loging` (error de dedo), `/img`.
 - `/img`: Carpeta que contiene imagenes útiles y relevantes acorde al tema del proyecto.
 - `/loging`: Carpeta que contiene los archivos que conforman la interfaz de uso para los usuarios con acceso a la "plataforma".
 
