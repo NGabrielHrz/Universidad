@@ -21,7 +21,7 @@ require "../connection.php";
   ?>
   <section class="home">
     <form action="save_task.php" method="post">
-      <h1 class="text">To-do List</h1>
+      <h1 class="text">To-do</h1>
       <div class="todo-container">
         <select name="materia" id="materia">
           <option value="">seleccionar materia</option>

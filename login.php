@@ -16,7 +16,7 @@ if ($result->num_rows == 1) {
   echo
   '<script>
     alert("ERROR EN LA AUTENTIFICACION");
-    location.href = "Login.php?errorusuario=SI"
+    location.href = "user-acces.php?errorusuario=SI"
   </script>'
   ;
 }

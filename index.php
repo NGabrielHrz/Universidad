@@ -13,13 +13,15 @@
 
 <body>
   <?php
-    include "menu.php";
+  include "menu.php";
   ?>
-  <div class="index">
-    
-  </div>
+  <section class="home">
+    <h1 class="text">Instituto Tecnologico de Merida</h1>
+    <div class="map-location">
+      <img src="img/tecfachada.jpg" class="foto">
+    </div>
+  </section>
   <script src="script.js"></script>
-  <script src="loging/script.js"></script>
 </body>
 
 </html>

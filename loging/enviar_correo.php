@@ -1,32 +1,36 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = $_POST["nombre"];
-    $email = $_POST["email"];
-    $asunto = $_POST["asunto"];
-    $mensaje = $_POST["mensaje"];
+  // Recuperar los valores del formulario
+  $de = $_POST["de"];
+  $para = $_POST["para"];
+  $asunto = $_POST["asunto"];
+  $mensaje = $_POST["mensaje"];
 
-    $to = "destinatario@example.com";
-    $subject = "Nuevo correo enviado";
-    $message = "Nombre: " . $nombre . "\n";
-    $message .= "Email: " . $email . "\n";
-    $message .= "Mensaje: " . $mensaje;
+  // Configurar los encabezados del correo electrónico
+  $encabezados = "MIME-Version: 1.0" . "\r\n";
+  $encabezados .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+  $encabezados .= "From: " . $de . "\r\n";
 
-    $headers = "From: " . $email . "\r\n" ."Reply-To: " . $email . "\r\n" . "X-Mailer: PHP/" . phpversion();
+  // Construir el cuerpo del correo electrónico
+  $cuerpo .= "<p><strong>Mensaje:</strong> " . $mensaje . "</p>";
 
-    if (mail($to, $subject, $message, $headers)) {
-      echo
-      '<script>
-        alert("El correo se envio correctamente");
-        location.href = "email.php";
-      </script>'
-      ;
-    } else {
-      echo
-      '<script>
-        alert("El correo no pudo enviarse correctamente");
-        location.href = "email.php";
-      </script>'
-      ;
-    }
+  // Enviar el correo electrónico
+  $resultado = mail($para, $asunto, $cuerpo, $encabezados);
+
+  // Verificar si el correo electrónico se envió correctamente
+  if ($resultado) {
+    echo
+    '<script>
+      alert("El correo se envio correctamente");
+      location.href = "email.php"
+    </script>'
+    ;
+  } else {
+    echo
+    '<script>
+      alert("El correo se no envio correctamente");
+      location.href = "email.php"
+    </script>'
+    ;
+  }
 }
-?>

@@ -20,7 +20,7 @@ require "../connection.php";
   include "menu.php";
   ?>
   <section class="home">
-    <div class="text">Barra lateral del tablero</div>
+    <div class="text">Panel principal</div>
     <div class="task-list">
       <table class="table-task-list">
         <tr class="tr-task-list">
@@ -34,10 +34,10 @@ require "../connection.php";
         $result = $conexion->query($todos_usuarios);
         while ($row = $result->fetch_assoc()) {
           echo "<tr class='tr-task-list'>";
-          echo "<td align='center'>" . $row["id"] . "</td>";
-          echo "<td align='center'>" . $row["materia"] . "</td>";
-          echo "<td align='center'>" . $row["descripcion"] . "</td>";
-          echo "<td align='center'><a href='borrar.php?id=" . $row["id"] . "'>Eliminar</a></td>";
+          echo "<td align='center' class='text'>" . $row["id"] . "</td>";
+          echo "<td align='center' class='text'>" . $row["materia"] . "</td>";
+          echo "<td align='center' class='text'>" . $row["descripcion"] . "</td>";
+          echo "<td align='center' class='text'><a href='borrar.php?id=" . $row["id"] . "'>Eliminar</a></td>";
           echo "</tr>";
         ?>
         <?php
