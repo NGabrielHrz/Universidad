@@ -307,6 +307,7 @@ body.dark .home .text {
 .foto {
   display: inline-block;
   width: 700px;
+  border-radius: 5px;
 }
 .loging {
   width: 250px;
