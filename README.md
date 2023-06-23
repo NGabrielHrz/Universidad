@@ -23,9 +23,17 @@ Este repositorio fue creado para llevar un control de historial de codigo y como
 5. Haz push a la rama: `git push origin nombre-de-la-rama`.
 6. Abre un pull request en el repositorio original.
 
+## Cosas por mejorar...
+- [ ] UI de la vista previa sin haber hecho login
+- [ ] Mejorar el TO-DO
+- [x] Agregar una nueva area para poner insetar imagenes, que se vean en al vista principal
+
 ## Contacto
+<p><a href="https://github.com/NGabrielHrz"><img src="https://avatars.githubusercontent.com/NGabrielHrz" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;</p>
+
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100005236578889) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/n.gabriel_02/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielhern%C3%A1ndez-developer/)
 
 Si tienes alguna pregunta o sugerencia sobre este repositorio, no dudes en contactarme. Puedes encontrar mis datos de contacto en mi perfil de GitHub o por algunas de mis redes sociales ya puestas anteriormente.
+
 
 ¡Gracias por visitar este repositorio!
