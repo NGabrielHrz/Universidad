@@ -29,7 +29,7 @@ Este repositorio fue creado para llevar un control de historial de codigo y como
 - [x] Agregar una nueva area para poner insetar imagenes, que se vean en al vista principal
 
 ## Contacto
-<p><a href="https://github.com/NGabrielHrz"><img src="https://avatars.githubusercontent.com/NGabrielHrz" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;</p>
+<p><a href="https://github.com/NGabrielHrz"><img src="https://avatars.githubusercontent.com/NGabrielHrz" width="50px" alt="NGabrielHrz" /></a>&nbsp;&nbsp;</p>
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100005236578889) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/n.gabriel_02/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielhern%C3%A1ndez-developer/)
 
